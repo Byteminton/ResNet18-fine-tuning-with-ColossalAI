@@ -65,6 +65,7 @@ Files already downloaded and verified
 Epoch [1/80]:   0%|          | 0/500 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/colossalai/nn/optimizer/nvme_optimizer.py:55: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
   numel += p.storage().size()
 Epoch [1/80]: 100%|██████████| 500/500 [00:30<00:00, 16.32it/s, loss=1.39]
+
 Epoch [2/80]: 100%|██████████| 500/500 [00:29<00:00, 17.11it/s, loss=1.18]
 Epoch [3/80]: 100%|██████████| 500/500 [00:29<00:00, 16.85it/s, loss=0.995]
 Epoch [4/80]: 100%|██████████| 500/500 [00:29<00:00, 17.09it/s, loss=0.955]
